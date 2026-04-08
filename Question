@@ -1,0 +1,17 @@
+Design a Library Management System to manage books, borrowing, and returns.
+Use in-memory storage
+
+	Add a book (id, title, author, category)
+	Remove a book
+	Borrow a book
+	Return a book
+	List all available books
+	Filter books by author or category
+	Validation:
+	Cannot borrow already borrowed book
+	Cannot return a book that wasn’t borrowed
+	No duplicate book IDs
+ 
+ 
+Add reservation queue if no copies available
+Auto-assign returned book to next user in queue
